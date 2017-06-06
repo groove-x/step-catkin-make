@@ -1,0 +1,11 @@
+name: catkin-make
+version: 0.0.3
+description: catkin_make command for ROS package
+properties:
+  catkin_ws_path:
+    type: string
+    required: true
+  ros_distro:
+    type: string
+    default: kinetic
+    required: false
